@@ -7,9 +7,6 @@
 }
 
 * {
-  background-color: (var(--background-color)) !important;
+  background-color: (var(--background-color));
   font-family: "Nunito", sans-serif;
-}
-
-footer {
 }

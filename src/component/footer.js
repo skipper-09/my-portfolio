@@ -8,7 +8,7 @@ export default function Footer() {
                     <div className="row ">
                         <div className="col-md-6">
                             <h4>Dapatkan info Tengtang Ku</h4>
-                            <p>Untuk Bisnis dapat menghubungi email <a href='mailto:musthopaa043@gmail.com'>musthopaa043@gmail</a></p>
+                            <p>Untuk Bisnis dapat menghubungi email <a className='link' href='mailto:musthopaa043@gmail.com'>musthopaa043@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
