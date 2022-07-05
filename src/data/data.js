@@ -9,11 +9,11 @@ const Header =
         },
         {
             title: 'Project',
-            to: "/"
+            to: "/project"
         },
         {
             title: 'Certificate',
-            to: "/"
+            to: "/certificate"
         },
     ];
 

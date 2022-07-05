@@ -2,11 +2,37 @@
 
 :root {
   /* color */
-  --background-color: #fffffb;
-  --font-color: #111111;
+  --background-color: #eff7f8;
+  --font-color: #100b1a;
 }
 
 * {
   background-color: (var(--background-color));
   font-family: "Nunito", sans-serif;
+  color: var(--font-color);
+}
+
+/* hero */
+.hi {
+  font-weight: 700;
+  color: var(--font-color);
+}
+
+.name {
+  font-weight: 600;
+  color: var(--font-color);
+}
+
+section {
+  margin-top: 60px;
+}
+
+.box {
+  background-color: #e9f7fb;
+  height: max-content;
+  box-shadow: 10px 10px #100b1a;
+}
+
+.box-child {
+  background-color: white;
 }

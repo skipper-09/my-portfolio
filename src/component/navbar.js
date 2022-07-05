@@ -1,11 +1,13 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 // import PropTypes from 'prop-types'
 import Logo from 'assets/images/logov2.png';
 
-import { Data, Header } from 'data/data';
+import { Header } from 'data/data';
+import PropsTypes from 'prop-types';
 
 export default function Navbar() {
+
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-transparent">
@@ -20,7 +22,7 @@ export default function Navbar() {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             {Header.map((header, key) =>
                                 <li className="nav-item">
-                                    <Link to={header.to} key={key} className='nav-link'>{header.title}</Link>
+                                    <NavLink key={key} to={header.to} activeClassName="active" className="nav-link">{header.title}</NavLink>
                                 </li>
                             )}
                         </ul>
@@ -30,4 +32,5 @@ export default function Navbar() {
         </>
     )
 }
+
 
