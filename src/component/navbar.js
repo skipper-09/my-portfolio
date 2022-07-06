@@ -22,7 +22,7 @@ export default function Navbar() {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             {Header.map((header, key) =>
                                 <li className="nav-item">
-                                    <NavLink key={key} to={header.to} activeClassName="active" className="nav-link">{header.title}</NavLink>
+                                    <NavLink key={key} to={header.to} activeclassname="active" className="nav-link">{header.title}</NavLink>
                                 </li>
                             )}
                         </ul>
