@@ -10,14 +10,14 @@ export default function Service() {
 
           <div className="row align-items-center">
             <div className="col-md-6">
-              <img src={ImgService} alt="Service Image" className='img-fluid' />
+              <img src={ImgService} alt="Service Image" className='img-fluid' data-aos="zoom-in" data-aos-duration="3000" />
             </div>
             <div className="col-md-6 ">
-              <h2 className='display-6 fw-bold subtitle'>My Service</h2>
+              <h2 className='display-5 fw-bold subtitle mb-5'>My Service</h2>
               <div className='mt-3 p-4 box rounded shadow'>
                 <div className='row gy-4 '>
-                  {ServiceData.map((data) => (
-                    <ServiceCard image={data.image} name_service={data.title} service_details={data.deskription} />
+                  {ServiceData.map((data, idx) => (
+                    <ServiceCard key={idx} image={data.image} name_service={data.title} service_details={data.deskription} />
                   )
                   )}
                 </div>
