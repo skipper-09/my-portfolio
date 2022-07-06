@@ -28,11 +28,27 @@ section {
 }
 
 .box {
-  background-color: #e9f7fb;
+  background-color: #323232;
   height: max-content;
-  box-shadow: 10px 10px #100b1a;
+}
+
+.subtitle {
+  color: #3f3d56;
+  font-size: 4em;
 }
 
 .box-child {
   background-color: white;
+}
+
+footer {
+}
+
+.icon {
+  height: 25;
+}
+
+.btn {
+  background-color: var(--font-color);
+  color: white;
 }
