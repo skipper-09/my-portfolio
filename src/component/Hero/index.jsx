@@ -15,8 +15,8 @@ export default function Hero() {
                             <p className='pt-2'>Saya seorang mahasiswa di Sekolah Ilmu Komputer di Banyuwangi.
                                 saya seorang freelancer kemampuan yang saya miliki yaitu programing React Js  </p>
                             <div className="d-flex gap-2">
-                                <button className="btn btn-primary hover btn-lg ">Here Me</button>
-                                <button className="btn btn-secondary ">Job Me</button>
+                                <button className="btn  hover btn-lg ">Here Me</button>
+                                <button className="btn  ">Job Me</button>
                             </div>
                         </div>
                         <div className='col-md-6 col-12 col-lg-6'>
