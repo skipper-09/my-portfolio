@@ -6,9 +6,9 @@ import './hero.css';
 export default function Hero() {
     return (
         <div>
-            <section className='mt-4  '>
+            <section className='hero '>
                 <div className='container'>
-                    <div className="row align-items-center ">
+                    <div className="row align-items-center content-hero">
                         <div className="col-md-6 col-12 col-lg-6 " data-aos="fade-up" data-aos-duration="2000">
                             <h2 className='text-capitalize display-2 hi '>Hi I'm </h2>
                             <span className='display-6 name mt-n1'>Ahmad Nurul Musthopa</span>
@@ -20,7 +20,7 @@ export default function Hero() {
                             </div>
                         </div>
                         <div className='col-md-6 col-12 col-lg-6'>
-                            <img src={ImgHero} alt="Image" className='img-fluid' data-aos="zoom-in" data-aos-duration="2000" />
+                            <img src={ImgHero} alt="Image" width={520} className='img-fluid' data-aos="zoom-in" data-aos-duration="2000" />
                         </div>
                     </div>
                 </div>
