@@ -23,8 +23,14 @@
   color: var(--font-color);
 }
 
-section {
-  margin-top: 60px;
+.hero {
+  background-color: #eae0d5;
+  height: 110vh;
+  margin-top: -110px;
+}
+
+.content-hero {
+  padding-top: 25vh;
 }
 
 .box {
