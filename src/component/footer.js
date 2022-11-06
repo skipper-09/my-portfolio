@@ -6,6 +6,7 @@ import {
     faTwitter,
     faInstagram
 } from '@fortawesome/free-brands-svg-icons';
+import { Link } from "react-router-dom";
 export default function Footer() {
 
     const date = new Date();
@@ -24,7 +25,10 @@ export default function Footer() {
                                 </a>
                             </p>
                             <div className="d-flex gap-4">
-                                <FontAwesomeIcon icon={faYoutube} className="" size="2x" />
+                                <a href="youtube.com">
+                                    <FontAwesomeIcon icon={faYoutube} className="" size="2x" />
+                                </a>
+
                                 <FontAwesomeIcon icon={faFacebook} className="" size="2x" />
                                 <FontAwesomeIcon icon={faTwitter} className="" size="2x" />
                                 <FontAwesomeIcon icon={faInstagram} className="" size="2x" />
